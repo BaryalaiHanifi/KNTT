@@ -11,7 +11,7 @@
 		</div>
 		<div id="quotes">
 		<ul>
-			<li>"Until I discovered cooking, I was never really interested in anything."-Julia Child</li>
+			<li style="font-weight: bold;">"Life is either a daring adventure or nothing at all."</li>
 		    </ul>
 		</div>
 		</div>
@@ -19,17 +19,16 @@
 
     <div class="container">
 		<section id="showcase">
-			<h1><small>01</small>The best recipes for you & the planet.</h1>
+			<h1><small>01</small>The best travel packages for you.</h1>
 		
-			<p>We have gathered best recipes from all types of food(appetizers,main-foods & dessert)<br> from top ten countries including(italy,spain,france,mexico,greece<br>,thailand,portugal,india,argentina and turkey) in food organization ranking.<br><br><br>
+			<p>We have gathered best suppliers together for (travel packages ,visa & ticket) to top countries including Russia,Uman,Brazil,Iran,Pakistan,Dubai, etc.<br><br>
 		    Learn more about our mission to statrt a conscious recipes 
 		    revolution.<br><br>
             <a href="mission.html">Discover Our mission</a>		    
 		    </p>
 		    <div id="img1">
-		    <img src="images/section-1.webp">
+		    <img src="images/section-1.jpg">
 		    </div>
-			<br>
 			<div id="img2">
 			<img src="images/section-1-2.jpg">
 		    </div>
