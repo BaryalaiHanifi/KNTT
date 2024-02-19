@@ -4,7 +4,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Recipe Website<?php if(isset($title)){echo "&#8212;{$title}";} ?></title>
+	<title>KNTT<?php if(isset($title)){echo "&#8212;{$title}";} ?></title>
 	<link rel="stylesheet" type="text/css" href="./css/frontend.css">
 	<link rel="stylesheet" type="text/css" href="../css/backend.css">
 	<meta name="keywords" content="HTML, CSS, XML, XHTML,php,JavaScript">
@@ -19,7 +19,8 @@
             <a class="active" href="menu.php">Menu</a>
 		 </div>
 	    <div id="h3-h6-sty">
-		   <h3>Discovered<br>
-		   <p>Effortless Recipes</p></h3>
+		   <h3>Kabul Nights<br>  
+		   <p>Travel & Tours</p>
+		   </h3>
 		   
 		</div>

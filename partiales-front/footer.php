@@ -2,16 +2,15 @@
    	<div class="container2">
    		<div id="footer">
     	<span>We acknowledge your participation in social media with 
-    		effortless recipes family, as well your
-    		sugestion about our recipes and your own best recipes
-    		share your best food experinces!!!</span>
-    		<br><br>
-    		
-    		<a href="#"><img src="images/facebook.png"></a>
-    		<a href="#"><img src="images/insta.png"><br></a>
-    		<a href="#">info@discoveredffortlessricipes.com</a> 
-    	</span>
-    	</div>
+    		Kabul Night Travel & Tours family, as well your
+    		sugestion about our services and 
+    		share your best travel experinces!!!
+			<br><br>
+			<a href="#" style="float: right;"><img src="images/facebook.png"></a>
+    		<a href="#" style="float: right;"><img src="images/insta.png"></a>
+    		<a href="#" style="float: right;"><img src="images/email.JPG"></a>
+		</span>
+		</div>
    		<strong><a href="mission.php">Mission</a></strong>
    		<span>01</span>
     	<hr>
@@ -25,7 +24,7 @@
 
     	<p>&copy;
         <?php
-        $startYear = 2021;
+        $startYear = 2023;
         $currentYear = date('Y');
         if ($startYear==$currentYear) {
              echo $currentYear;
