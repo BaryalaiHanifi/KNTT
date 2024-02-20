@@ -3,7 +3,7 @@
    session_start();
 
    //creating contants to store non repeating values
-   define('SITEURL','http://localhost/Recipe-App/');
+   define('SITEURL','http://localhost/KNTT/');
    define('LOCALHOST','localhost');
    define('DB_USERNAME', 'root');
    define('DB_PASSWORD','');

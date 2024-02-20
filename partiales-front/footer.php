@@ -6,9 +6,9 @@
     		sugestion about our services and 
     		share your best travel experinces!!!
 			<br><br>
-			<a href="#" style="float: right;"><img src="images/facebook.png"></a>
-    		<a href="#" style="float: right;"><img src="images/insta.png"></a>
-    		<a href="#" style="float: right;"><img src="images/email.JPG"></a>
+			<a href="https://www.facebook.com/profile.php?id=61553712674280" style="float: right;"><img src="images/facebook.png"></a>
+    		<a href="https://www.instagram.com/kabulnights4?igsh=MWoyd2xmZGx5cjFvZQ==" style="float: right;"><img src="images/insta.png"></a>
+    		<a href="info@kabulnight.com" style="float: right;"><img src="images/email.JPG"></a>
 		</span>
 		</div>
    		<strong><a href="mission.php">Mission</a></strong>
