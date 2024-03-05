@@ -35,7 +35,6 @@
         } 
          ?>
         Powered by:Baryalai Hanifi</p>
-    	
         </div>
         </div>
     	
