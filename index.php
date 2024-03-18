@@ -1,12 +1,18 @@
 <?php include('./partiales-front/menu.php');  ?>
 <?php include('./config/constants.php'); ?>
-<div id="h1-sty">
-		   <h1><p>We Plan,<p></h1>
-		   <h1>You Enjoy!</h1>
-		   <img src="images/logo.jpg"><h1>KNTT</h1>
-		   
+<header>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-sm-2"></div>
+			<div class="col-sm-8" id="h1-sty">
+				<h1><p>Kabul Nights<p></h1>
+		   		<h1>Travel & Tours</h1>
+				<img src="images/logo.jpg">
+			</div>
+			<div class="col-sm-2"></div>		
 		</div>
-		<div id="img-sty">
+	</div>
+		<div class="container-fluid" >
 			<img src="images/main.jpg">
 		</div>
 		<div id="quotes">
