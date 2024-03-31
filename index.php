@@ -1,6 +1,6 @@
 <?php include('./partiales-front/menu.php');  ?>
 <?php include('./config/constants.php'); ?>
-<header>
+<header style="background-color: white;">
 <div class="container-fluid" style="background-color: white;">
 		<div class="row">
 			<div class="col-md-2"></div>
@@ -16,28 +16,34 @@
 			<img src="images/KnttServices.jpeg" class="img-responsive">
 	</div>
 </div>
-
 </header>
-    <div class="container">
-		<section id="showcase">
+	
+<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-6" id="img1">
+				<img src="images/section-1.jpg" class="img-responsive">
+			</div>
+			<div class="col-md-6" id="showcase">
 			<h1><small>01</small>The best travel packages for you.</h1>
-		
 			<p>We have gathered best suppliers together for (travel packages ,visa & ticket) to top countries including Russia,Uman,Brazil,Iran,Pakistan,Dubai, etc.<br><br>
 		    Learn more about our mission.<br><br>
             <a href="mission.html">Discover Our mission</a>		    
 		    </p>
-		    <div id="img1">
-		    <img src="images/section-1.jpg">
-		    </div>
 			<div id="img2">
-			<img src="images/section-1-2.jpg">
+			<img src="images/section-1-2.jpg" class="img-responsive">
 		    </div>
-		    <div id="img3">
-           	<img src="images/section-1-3.jpg">
-            </div>
-		</section>
-    </div>
-    <div class="container1">
+			</div>
+		</div>	
+	    <div >
+</div>
+<div class="container-fluid" id="img3">
+	<div class="row">
+			<img src="images/section-1-3.jpg" class="img-responsive">
+	</div>
+</div>
+
+
+<div class="container1">
     <section id="main">
     		<div id="section-two-header">
     			<small>02</small>

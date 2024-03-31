@@ -5,13 +5,13 @@
 }
 .container{
 
-	background-color:#f5f5dc;
+	background-color:white;
 	color:#043927;
 	font-family: "Times New Roman",Times,serif;
 }
 
 #main-header{
-	background-color: #f5f5dc;
+	background-color:white;
 }
 #navbar{
 
@@ -110,7 +110,7 @@ list-style: circle;
 
 }
 #showcase{
-	background-color:#f5f5dc;
+	background-color:white;
 	color:#043927;
 	font-family: "Times New Roman",Times,serif;
 }
