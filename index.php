@@ -1,28 +1,23 @@
 <?php include('./partiales-front/menu.php');  ?>
 <?php include('./config/constants.php'); ?>
 <header>
-	<div class="container-fluid">
+<div class="container-fluid" style="background-color: white;">
 		<div class="row">
-			<div class="col-sm-2"></div>
-			<div class="col-sm-8" id="h1-sty">
+			<div class="col-md-2"></div>
+			<div class="col-md-8" id="h1-sty">
 				<h1><p>Kabul Nights<p></h1>
 		   		<h1>Travel & Tours</h1>
-				<img src="images/logo.jpg">
 			</div>
-			<div class="col-sm-2"></div>		
+			<div class="col-md-2"></div>		
 		</div>
+</div>	
+<div class="container-fluid">
+	<div class="row">
+			<img src="images/KnttServices.jpeg" class="img-responsive">
 	</div>
-		<div class="container-fluid" >
-			<img src="images/main.jpg">
-		</div>
-		<div id="quotes">
-		<ul>
-			<li style="font-weight: bold;">"Life is either a daring adventure or nothing at all."</li>
-		    </ul>
-		</div>
-		</div>
-</header>
+</div>
 
+</header>
     <div class="container">
 		<section id="showcase">
 			<h1><small>01</small>The best travel packages for you.</h1>
