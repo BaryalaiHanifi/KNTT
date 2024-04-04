@@ -3,42 +3,43 @@
 <header style="background-color: white;">
 <div class="container-fluid" style="background-color: white;">
 		<div class="row">
-			<div class="col-md-2"></div>
-			<div class="col-md-8" id="h1-sty">
-				<h1><p>Kabul Nights<p></h1>
-		   		<h1>Travel & Tours</h1>
+			<div class="col-md-12" id="h1-sty" style="text-align: center;">
+				<h1>We Plan, You Enjoy!</h1>
 			</div>
-			<div class="col-md-2"></div>		
+				
 		</div>
 </div>	
 <div class="container-fluid">
 	<div class="row">
-			<img src="images/KnttServices.jpeg" class="img-responsive">
+			<img src="images/KnttServices.jpeg" class="img-fluid" style="width: 100%;">
 	</div>
 </div>
 </header>
 	
 <div class="container-fluid">
 		<div class="row">
-			<div class="col-md-6" id="img1">
-				<img src="images/section-1.jpg" class="img-responsive">
+			<div class="col-md-6" id="showcase">
+				<img src="images/section-1.jpg" class="img-fluid">
+				<h1><small>02</small>The best travel Options for you!</h1>
+				<p>We have gathered best suppliers together for (travel packages ,visa & ticket) to top countries including Russia,Uman,Brazil,Iran,Pakistan,Dubai, etc.<br><br>
+			   	Learn more about our mission in below link.<br><br>
+           		<a href="mission.html">Discover Our mission</a>		    
+		   		</p>		
 			</div>
 			<div class="col-md-6" id="showcase">
-			<h1><small>01</small>The best travel packages for you.</h1>
+			<h1><small>01</small>The best travel packages for you!</h1>
 			<p>We have gathered best suppliers together for (travel packages ,visa & ticket) to top countries including Russia,Uman,Brazil,Iran,Pakistan,Dubai, etc.<br><br>
-		    Learn more about our mission.<br><br>
+		    Learn more about our mission in below link.<br><br>
             <a href="mission.html">Discover Our mission</a>		    
-		    </p>
-			<div id="img2">
-			<img src="images/section-1-2.jpg" class="img-responsive">
-		    </div>
+		    </p>		
+			<img src="images/section-1-2.jpg" class="img-fluid">
 			</div>
 		</div>	
 	    <div >
 </div>
 <div class="container-fluid" id="img3">
 	<div class="row">
-			<img src="images/section-1-3.jpg" class="img-responsive">
+			<img src="images/section-1-3.jpg" class="img-fluid">
 	</div>
 </div>
 

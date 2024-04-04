@@ -4,7 +4,6 @@
 	font-size: relative;
 }
 .container{
-
 	background-color:white;
 	color:#043927;
 	font-family: "Times New Roman",Times,serif;
@@ -13,30 +12,29 @@
 #main-header{
 	background-color:white;
 }
-#navbar{
 
+#navbar{
 	float:right;
 	list-style: none;
-	margin-top:35px;
+	margin-top:10px;
 	margin-right:20px;
-
  }
  #navbar a {
  	color:#043927;
  	text-decoration: none;
  	padding: 5px 20px;
  	font-family: "Times New Roman",Times,serif;
- 	font-size: 20px;
+ 	font-size: 22px;
 }
  #navbar a:hover{
  	color: white;
     background-color:#043927; 
- 	border: 0.3px solid #043927;
+ 	border: 0.3px solid yellow;
  }
  
 
  #h1-sty img{
- 	width: 200px;
+ 	width: auto;
  	height: auto;
     float: left;
     margin-right: 0px;
@@ -55,12 +53,10 @@
 
 
 #h3-h6-sty{
-	color: black;
+	color: #043927;
 	font-family: "Times New Roman",Times,serif;
-	float:left;
 	margin-top:25px;
 	margin-right:20px;
-
 }
 
 #h3-h6-sty h3{
@@ -76,22 +72,13 @@ font-size: 12px;
 margin-left:13px;
 }
 
-
-
 #h1-sty{
-	float: center;
 	font-family:"Comic Sans MS",cursive,sans-serif;
 	color:#043927;
-	font-size: 80px;
 	padding-top: 95px;
 
 }
-#h1-sty h1{
-	margin-left: 300px;
-}
-#h1-sty h1 p{
-	margin-top:0px;
-}
+
 
 #quotes{
 	color:#043927;
@@ -115,67 +102,54 @@ list-style: circle;
 	font-family: "Times New Roman",Times,serif;
 }
 #showcase a{
-	color:darkgreen;
+	color:#043927;
 }
 #showcase a:hover{
-	color:black;
+	color:blue;
 }
  
 #showcase h1{
-	float:right;
-    margin-right:200px;
-    font-size: 30px;
+    font-size: 25px;
     margin-top: 20px;
-    padding-right: 30px;
-    
 }
 
 #showcase h1 small{
-	margin-right:100px;
-	margin-top: 20px;
-	font-size: 25px;
+	margin-right:40px;
+	font-size: 40px;
 }
 #showcase p{
 	font-family:Arial,helvatica,sans-serif; 
-	float: right;
-	margin-top: 100px;
-	margin-right:20em;
-
-	width:400px;
-	font-size: 20px;
-	padding-left: 50px;
-
-
- 
+	margin-top: 60px;
+	font-size: 20px;	
 }
+
+
+#showcase img{
+	margin-top: 0px;
+	width: 100%;
+	height: auto;
+}
+#showcase img:hover{
+	transition-duration: 1s;
+	transform: rotate(-1deg);
+}
+
 #img1 img{
-float:left;
-margin-top: 0px;
-margin-left: 30px;
-width: 600px;
-height: auto;
+	margin-top: 0px;
+	width: 100%;
+	height: auto;
 }
 #img1 img:hover{
 	transition-duration: 1s;
-	transform: rotate(-2deg);
+	transform: rotate(-1deg);
 }
 
-#img2 img{
-	float:right;
-	margin-top:40px;
-    margin-right:180px;
-    width: 600px;
-    height: auto;
-}
-#img2 img:hover{
-	transition-duration: 1s;
-	transform: rotate(-2deg);
-}
 #img3 img{
 	margin-top:40px;
+	margin-bottom: 40px;
     margin-right:0px;
     margin-left:0px;
-    width:1495px;
+    width:100%;
     height: auto;
 }
 
