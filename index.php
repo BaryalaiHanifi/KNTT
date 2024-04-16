@@ -39,22 +39,22 @@
 </div>
 <div class="container-fluid" id="img3">
 	<div class="row">
+		<div class="col-md-12"> 
 			<img src="images/section-1-3.jpg" class="img-fluid">
+		</div>
 	</div>
 </div>
 
-
-<div class="container1">
-    <section id="main">
-    		<div id="section-two-header">
-    			<small>02</small>
-    			<h1>Born To be.</h1>
-    			 <img src="images/logo4.jpg"><h2>Curious.</h2>
-    			 <span><img src="images/messy1.webp"></span>
-
-    		</div>
-    		<div id="section-two-paragraph">
-    		 <p>
+<div class="container-fluid" id="main">
+	<div class="row">
+		<div class="col-md-12">
+		<h2><small>03 </small> Born To Be Curious.</h2>
+    	
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-6">
+		<p>
 				We have tried to explore best<br> destinations all around the globe
 				and we go on this process as well,<br> destinations that are famous for position, story, design<br> and architechture.
 				<br><br><br>
@@ -62,11 +62,12 @@
 				<br><br>
 				<a href="recipes.html">Discover Our Destinations</a>
 
-				
-			</p>
-		   </div>
-
-		</section>
+		</p>
+		</div>
+		<div class="col-md-6">
+		<img src="images/logo4.jpg"><h2>
+		</div>
+	</div>
   </div>
   <br>
  <?php include('./partiales-front/footer.php');  ?>
