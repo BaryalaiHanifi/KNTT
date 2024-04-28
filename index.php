@@ -1,4 +1,4 @@
-<?php include('./partiales-front/menu.php');  ?>
+<?php include('./partiales-front/menu.php');?>
 <?php include('./config/constants.php'); ?>
 <header style="background-color: white;">
 <div class="container-fluid" style="background-color: white;">

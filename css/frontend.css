@@ -287,7 +287,7 @@
 
 #menu-navbar a {
 	color: white;
-	text-decoration: none;
+	text-decoration:none;
 	padding: 5px 20px;
 	font-family: "Times New Roman", Times, serif;
 	font-size: 20px;
@@ -398,33 +398,23 @@
 	padding: 0;
 	font-family: "Times New Roman", Times, serif;
 }
-
-#showcase-01 div {
-	background-color: #043927;
-	margin: 0;
-	padding: 0;
-	font-family: "Times New Roman", Times, serif;
+#vertical-line{
+	border-right: 1px solid lightgrey;
+	height: 300px;
 }
 
-#mission-navbar {
-	float: right;
-	list-style: none;
-	margin-top: 35px;
-	margin-right: 20px;
+#vertical-line span{
+	font-size: 150px;
+	margin-left: 30%;
+	margin-bottom: 0px;
+	display:inline-block;
 }
 
-#mission-navbar a {
-	color: white;
-	text-decoration: none;
-	padding: 5px 20px;
-	font-family: "Times New Roman", Times, serif;
-	font-size: 18px;
-}
-
-#mission-navbar a:hover {
+#vertical-line p{
+	text-align:left;
+	width:auto;
 	color: #043927;
-	background-color: white;
-	border: 0.3px solid #043927;
+	font-family: Arial, helvatica, sans-serif;
 }
 
 #mission-h3-h6-sty {
@@ -433,11 +423,9 @@
 	float: left;
 	margin-top: 25px;
 	margin-right: 20px;
-
 }
 
 #mission-h3-h6-sty h3 {
-
 	margin-top: 0px;
 	margin-left: 20px;
 	font-size: 22px;
@@ -450,55 +438,16 @@
 	margin-left: 13px;
 }
 
-#mission-01 {
-	margin-top: 50px;
-}
-
-#mission-01 hr {
-	margin-top: 3em;
-	width: 30%;
-	float: right;
-	margin-right: 10em;
-}
-
-#mission-01 span {
-	float: left;
-	font-size: 200px;
-	color: white;
-	margin-left: 40px;
-	margin-bottom: 0px;
-}
-
 #mission-01 strong {
-	float: right;
-	color: white;
-	font-size: 75px;
-	margin-right: 3.5em;
+	color:#043927;
+	font-size: 90px;
 }
 
-#mission-02 p {
-	text-align: left;
-	width: 300px;
-	color: white;
-	margin-left: 50px;
-	margin-top: 300px;
-	font-family: Arial, helvatica, sans-serif;
-
-}
-
-#mission-02 img {
+#mission-01 img {
 	float: right;
+	margin-right:20%;
 	width: 100px;
 	height: auto;
-	margin-right: 25em;
-}
-
-#x {
-	border-left: 1px solid white;
-	height: 408px;
-	position: absolute;
-	left: 47%;
-	margin-top: 116px;
 }
 
 #showcase-01 {

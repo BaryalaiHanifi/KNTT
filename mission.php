@@ -1,39 +1,23 @@
-<?php include('./config/constants.php'); ?>
-<!DOCTYPE html>
-<html>
-<head>
-	<title>mission</title>
-	<link rel="stylesheet" type="text/css" href="./css/frontend.css">
-</head>
-<body id="mission-body">
-	
-<header id="main-header-01">
-		<div id="x"></div>
-		<div class="mission-container">
-		<div id="mission-navbar">
-            <a href="menu.php">Menu</a>
-		</div>
-		<div id="mission-h3-h6-sty">
-		   <h3>Discovered<br>
-		   <p>Effortless Recipes</p></h3>
-		</div>
-		<br>
-	    <div id="mission-01">
-		<hr>
-		<br>
-	    <span>01</span>
-        <strong>Our<br>Mission </strong>
-        </div>
-        <br>
-        <div id="mission-02">
-        	<img src="images/arrow.png">
-        	<p>Discoverd effortless recipes was born to define global best recipes for it's paticipants from a simple desire to use what is on our plates to make positive change for our environment,health & communites.</p>
-        </div>
-		</div>
-	  </header>
-	  <br>
-	  <hr>
-	  <br>
+<?php include('./partiales-front/menu.php');?>
+<?php include('./config/constants.php');?>
+<div class="container-fluid" style="background-color:white;font-family:'Times New Roman', Times, serif;color: #043927" id="main-header-01">
+<div class="row">
+	<div class="col-md-6" style="margin-top:100px;" id="vertical-line">
+	<span>01</span>
+	<p>Discoverd effortless recipes was born to define global
+	best recipes for it's paticipants from a simple desire to
+	use what is on our plates to make positive change for our
+	environment,health & communites.</p>
+	</div>
+	<div class="col-md-6" style="margin-top:86px;" id="mission-01">
+	<hr>
+	<strong>Our<br>Mission</strong>
+	<img src="images/arrow.png" class="img-fluid">
+	</div>
+</div>
+</div>
+<hr>
+
 	  <section id="showcase-01">
 		<div class="container-01">
 		   <div id="mission-showcase1">
@@ -80,40 +64,4 @@
 	    <img src="images/mission2-3.webp">
 	</div>
 	<br>
-	<br>
-	<div   id="m-footer">
-	<footer id="mission-footer">
-   	<div class="mission-footer-container">
-   		<div id="n-footer">
-    	<span>We acknowledge your participation in social media with 
-    		effortless recipes family, as well your
-    		sugestion about our recipes and your own best recipes
-    		share your best food experinces!!!
-    		<br><br>
-    		
-    		<a href="#"><img src="images/facebook.png"></a>
-    		<a href="#"><img src="images/insta.png"><br></a>
-    		<a href="#">info@discoveredffortlessricipes.com</a> 
-    	</span>
-    	</div>
-   		<strong><a href="mission.php">Mission</a></strong>
-   		<span>01</span>
-    	<hr>
-    	<strong><a href="recipes.php">Recipes</a></strong>
-    	<span>02</span>
-    	<hr>
-    	<strong><a href="contact.php">Contact</a></strong>	
-    	<span>03</span>
-    	<hr>
-    	<div id="mission-copyrigt">
-    	<p>Copyrigt &2021;Baryalai Hanifi</p>
-    	</div>
-        </div>
-    	
-    </footer>
-     </div>
-
-
-
-</body>
-</html>
+	<?php include('./partiales-front/footer.php');  ?>

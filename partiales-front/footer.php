@@ -19,7 +19,7 @@
 		<p style="margin-left: 20px;">We acknowledge your participation in social media with 
     		Kabul Night Travel & Tours family, as well your
     		sugestion about our services and 
-    		share your best travel experinces!!!
+    		share your best travel experinces!
 			<br><br>
 			<a href="https://www.facebook.com/profile.php?id=61553712674280"><img src="images/facebook.png"></a>
     		<a href="https://www.instagram.com/kabulnights4?igsh=MWoyd2xmZGx5cjFvZQ=="><img src="images/insta.png"></a>
