@@ -450,6 +450,39 @@
 	height: auto;
 }
 
+#div1 {
+	background-color: coral;
+}
+
+#div1-row1 h1{
+	 text-align: center;
+	 color:white;
+	 font-family: 'Times New Roman', Times, serif;
+}
+
+#div1-row1 hr{
+	margin: 0 auto;
+	width: 50%;
+	color:white;
+	margin-bottom: 30px;
+}
+
+#div1-row2 p{
+	color: white;
+	text-align: justify;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#img-center {
+	text-align: center;
+}
+
+#img-center img{
+	height: auto;
+	width: 400px;
+	margin-bottom: 100px;
+}
+
 #showcase-01 {
 	color: white;
 }
@@ -472,7 +505,6 @@
 
 #mission-showcase2 img {
 	margin-top: 100px;
-
 	float: right;
 	margin-right: 150px;
 	width: 400px;
@@ -495,9 +527,6 @@
 	margin-bottom: 40px;
 }
 
-.mission-container-02 {
-	margin-top: 1000px;
-}
 
 #m-footer {
 	margin-top: 1000px;

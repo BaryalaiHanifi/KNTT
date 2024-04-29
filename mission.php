@@ -15,8 +15,33 @@
 	<img src="images/arrow.png" class="img-fluid">
 	</div>
 </div>
-</div>
 <hr>
+</div>
+
+<div class="container-fluid" id="div1">
+<div class="row" id="div1-row1">
+	<div class="col-md-12">
+		<h1>
+		    We Choose to See the<br>
+			Problem as the Solution
+		</h1>
+		<hr> 
+	</div>
+</div>
+<div class="row" id="div1-row2">
+	<div class="col-md-6">
+		<p>
+		We have tried to explore best recipes all around the globe
+			and we go on this process as well, recipes that are famous for there taste, ingridents, design and harmless for your health.<br><br>
+			Game to try some of out recipes? Discover the ease & versatility of cooking with effortless recipes game.also an important case.<br><br>
+		   	Our mission is to help every chef discover the taste,health & sustainability benefits of ethically delicious foods.<br>
+		</p>
+    </div>
+	<div class="col-md-6" id="img-center">
+	<img src="images/mission-3.webp" class="img-fluid">
+	</div>
+	</div>
+</div>
 
 	  <section id="showcase-01">
 		<div class="container-01">
@@ -41,6 +66,7 @@
 	    <img src="images/mission-3.webp">
 	</div>
 	<br>
+
 	<div class="mission-container-02">
 	<section id="showcase-01">	
 		<div id="mission-showcase1">
