@@ -4,9 +4,9 @@
 <div class="container-fluid" style="background-color: white;">
 		<div class="row">
 			<div class="col-md-12" id="h1-sty" style="text-align: center;">
-				<h1>We Plan, You Enjoy!</h1>
+				<h2>We Plan, You Enjoy!</h2>
+				<img src="images/slogan.png" class="img-fluid">
 			</div>
-				
 		</div>
 </div>	
 <div class="container-fluid">
