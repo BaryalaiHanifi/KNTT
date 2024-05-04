@@ -925,6 +925,27 @@
 	border-radius: 40px;
 }
 
+#background-image-container {
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+	url('../images/contact-back.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+	margin-top: 100px;
+	width: 100%;
+    height: auto; /* You can adjust the height as needed */
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#background-image-container h1{
+	color: white;
+	margin-top: 80px;
+	font-size: 80px;
+}
+
+
 .contact-title {
 	margin-top: 50px;
 	color: #043927;
@@ -953,7 +974,7 @@ form {
 }
 
 .form-control {
-	width: 600px;
+	width: 400px;
 	background: transparent;
 	border: none;
 	outline: none;
@@ -964,7 +985,7 @@ form {
 }
 
 input {
-	height: 45px;
+	height: 50px;
 }
 
 form .submit {

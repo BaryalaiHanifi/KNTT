@@ -1,37 +1,15 @@
-<?php include('./config/constants.php'); ?>
-<!DOCTYPE html>
-<html>
-<head>
-	<title>contact</title>
-	<link rel="stylesheet" type="text/css" href="./css/frontend.css">
-    <script type="text/javascript">
-        function warning(){
-         var r = confirm("Are you sure!");
-        }
-    </script>
-</head>
-<body style="background-color:#f5f5dc">
- <header
-       style="background-image:
-       linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
-       url(images/contact-back.webp);
-       height: 100vh;
-       background-size: cover;
-       background-position: center;
-       color: white"" id="main-header-02">
-       <div id="recipes-navbar">
-        <a style="color: white;" href="menu.php">Menu</a>
-       </div>
-       <div style="color:grey" id="recipes-h3-h6-sty">
-           <h3>Discovered<br>
-           <p>Effortless Recipes</p></h3>
-           <br>
-       </div>
-       <div id="recipe-name">
-        <p>Get in</p>
-        <img src="images/chefs.jpeg"><span style="font-size:180px; ">Touch</span>
-       </div>
-    </header>
+<?php include('./config/constants.php');?>
+<?php include('./partiales-front/menu.php');?>
+<br>
+<div class="container-fluid" id="background-image-container">
+  <div class="row">
+    <div class="col-md-12" id="contact-h1">
+      <h1>Get in Touch</h1>
+    </div>
+  </div>
+</div>
+
+<body style="background-color:white">
     <div class="contact-title">
            <h1>Join Us</h1>
         <h2>We are always ready to serve you!</h2>
@@ -40,11 +18,13 @@
           echo $_SESSION['user'];
           unset($_SESSION['user']);
         }
-
-
          ?>
     </div>
-    <div class="contact-form">
+
+<div class="container-fluid" style="background-color: white;">
+  <div class="row">
+      <div class="col-md-12">
+      <div class="contact-form">
         <form id="contact-form" method="post" action="">
             <input type="text" name="name" class="form-control" placeholder="Your name..." required>
             <br>
@@ -85,8 +65,15 @@
               }
 
             }
-
-
-            ?>
+          ?>
    </div>
-     <?php include('./partiales-front/footer.php');  ?>
+      </div>
+  </div>
+</div>
+<script type="text/javascript">
+        function warning(){
+         var r = confirm("Are you sure!");
+        }
+</script>
+
+  <?php include('./partiales-front/footer.php');  ?>
