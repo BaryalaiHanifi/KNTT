@@ -26,6 +26,5 @@
 	    <div id="h3-h6-sty">
 		   <h3>Kabul Nights<br>  
 		   <p>Travel & Tours</p>
-		   </h3>
-		   
+		   </h3>  
 		</div>

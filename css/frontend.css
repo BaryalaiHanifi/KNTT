@@ -946,7 +946,7 @@
 }
 
 
-.contact-title {
+#contact-title {
 	margin-top: 50px;
 	color: #043927;
 	text-transform: uppercase;
@@ -955,22 +955,33 @@
 	transition: all 4s ease-in-out;
 }
 
-.contact-title h1 {
+#contact-title h1 {
 	font-size: 32px;
-
 }
 
-.contact-title h2 {
+#contact-title h2 {
 	font-size: 16px;
 }
+
+#contact-title b{
+	color: red;
+	display: flex;
+	justify-content: left;
+	align-items: left;
+}
+
+
 
 form {
 	margin-top: 50px;
 	transition: all 4s ease-in-out;
 }
 
-.contact-form {
+#contact-form {
 	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .form-control {
@@ -992,13 +1003,16 @@ form .submit {
 	background: #043927;
 	border-color: transparent;
 	color: #fff;
-	font-size: 20px;
+	font-size: 15px;
 	font-weight: bold;
-	letter-spacing: 2px;
-	height: 30px;
+	letter-spacing: 3px;
+	height: 40px;
 	margin-top: 20px;
 	margin-bottom: 50px;
-	width: 200px;
+	width: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 form .submit:hover {
@@ -1010,13 +1024,16 @@ form .reset {
 	background: #043927;
 	border-color: transparent;
 	color: #fff;
-	font-size: 20px;
+	font-size: 15px;
 	font-weight: bold;
-	letter-spacing: 2px;
-	height: 30px;
+	letter-spacing: 3px;
+	height: 40px;
 	margin-top: 0px;
 	margin-bottom: 100px;
-	width: 200px;
+	width: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 form .reset:hover {
