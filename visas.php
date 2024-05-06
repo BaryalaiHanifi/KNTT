@@ -62,7 +62,7 @@
 	                  	}
 
 	                  	 ?>
-	                   <strong><?php echo $title;?></strong> </a>
+	                   <h3><?php echo $title;?></h3> </a>
 	            </div> 
 
 				<?php
