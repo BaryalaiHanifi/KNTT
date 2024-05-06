@@ -694,23 +694,28 @@
 
 #recipes-arangment {
 	color: #043927;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 #images-arangment img {
-	width: 350px;
+	width: 300px;
 	height: auto;
-	margin-left: 200px;
-	margin-top: 70px;
+	margin-right: 20px;
+	margin-top: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	margin-bottom: 20px;
 }
 
 #images-arangment strong {
-	float: right;
 	font-size: 40px;
-	margin-top: 200px;
-	margin-right: 500px;
+	margin-right:20px;
 	font-family: Garamond, serif;
 	color: #043927;
+	text-decoration: none;
 
 }
 

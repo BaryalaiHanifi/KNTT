@@ -9,7 +9,7 @@
 		<strong><a href="mission.php">Mission</a></strong>
 		<hr>
 		<span>03</span>
-    	<strong><a href="recipes.php">Recipes</a></strong>
+    	<strong><a href="visas.php">Visas</a></strong>
 		<hr>
 		<span>04</span>
     	<strong><a href="contact.php">Contact</a></strong>

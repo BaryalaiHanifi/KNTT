@@ -1,26 +1,36 @@
 <?php include('./config/constants.php'); ?>
 <?php include('./partiales-front/menu.php');?>
 
-	<br>
-	<div id="recipes-01">
-		<hr>
-		<br>
-	    <span>02</span>
-        <strong>Our<br>Recipes</strong>
-    </div>
-    <br>
-    <div id="recipes-02">
-        	<img src="images/arrow.png">
-        	<p>The best recipes all around the world from top ten ranked countries,incridible lean, hight in protein, and low in fat generic including all types of food appetizers, main courses, and desserts step by step cooking.</p>
-    </div>
-
-    </div>
-	</header>
-	<br>
+<div class="container-fluid" style="background-color:white;font-family:'Times New Roman', Times, serif;color: #043927" id="main-header-01">
+<div class="row">
+	<div class="col-md-6" style="margin-top:100px;" id="vertical-line">
+	<span>03</span>
+	<p>Discoverd effortless recipes was born to define global
+	best recipes for it's paticipants from a simple desire to
+	use what is on our plates to make positive change for our
+	environment,health & communites.</p>
+	</div>
+	<div class="col-md-6" style="margin-top:86px;" id="mission-01">
 	<hr>
-	<br>
-	<div class="recipes-arangment">
+	<strong>Our<br>Visas</strong>
+	<img src="images/arrow.png" class="img-fluid">
+	</div>
+</div>
+<hr>
+</div>
 
+<!--end of block-->
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-md-12">
+
+		</div>
+	</div>
+</div>
+
+	<div class="container-fluid" id="recipes-arangment">
+		<div class="row">
+			<div class="col-md-4" style="display: flex;">
 		<?php
 		//create sql query to display categories from db
 		$sql = "SELECT * FROM tbl_recipe ";
@@ -36,9 +46,9 @@
 				$title = $row['title'];
 				$image_name = $row['image_name'];
 				?>
-	            <a href="<?php echo SITEURL;?>category-food.php?category_id=<?php echo $id;?>">
+	           
 				<div id="images-arangment">
-	                  
+				<a style="text-decoration: none;" href="<?php echo SITEURL;?>category-food.php?category_id=<?php echo $id;?>">
 	                  	<?php 
 	                  	//check whether image is availabe or not
 	                  	if ($image_name=="") {
@@ -52,8 +62,8 @@
 	                  	}
 
 	                  	 ?>
-	                   <strong><?php echo $title;?></strong>
-	            </div>
+	                   <strong><?php echo $title;?></strong> </a>
+	            </div> 
 
 				<?php
 			}
@@ -63,11 +73,11 @@
 		}
 
         ?>
+		</div>   
     </div> 
-</a>
-    <br>
-    <section>
-    	
+</div> 
+	<!--end of visa Categories-->
+    <section>	
     <div class="food">
     	<h1>Food Menu</h1>
     	<div class="food-search">
@@ -135,5 +145,4 @@
          ?>
          </div>
    </section>
-
-    <?php include('./partiales-front/footer.php');  ?>
+ <?php include('./partiales-front/footer.php');  ?>
