@@ -1048,19 +1048,19 @@ form .reset:hover {
 	cursor: pointer;
 }
 
-.food {
+#food {
 	background-color: #043927;
 	width: 100%;
 	height: auto;
 }
 
-.food h1 {
+#food h2 {
 	color: white;
 	text-align: center;
 	font-family: Trebuchet MS, sans-serif;
 }
 
-.food-menu-box {
+#food-menu-box {
 
 	border-radius: 15px;
 	width: 300px;
@@ -1070,37 +1070,40 @@ form .reset:hover {
 	background-color: #f5f5dc;
 }
 
-.food-menu-img img {
+#food-menu-img img {
 	width: 200px;
 }
 
-.food-menu-desc {
+#food-menu-desc {
 	color: #043927;
 }
 
-.food-menu-desc a {
+#food-menu-desc a {
 	text-decoration: none;
 	color: red;
 }
 
-.food-menu-desc a:hover {
+#food-menu-desc a:hover {
 	color: #043927;
 }
 
+#food-search {
+	display: flex;
+	justify-content: right;
+	align-items: right;
+}
+
 #search-text {
-	width: 600px;
 	background-color: #f5f5dc;
+	width: 300px;
 	border: none;
-	padding-left: 10px;
 	outline: none;
 	color: #043927;
 	font-size: 18px;
-	margin-left: 50%;
 	margin-bottom: 16px;
 }
 
 #search-btn {
-
 	background: #f5f5dc;
 	color: #043927;
 	font-size: 20px;
@@ -1108,8 +1111,6 @@ form .reset:hover {
 	text-decoration: none;
 	letter-spacing: 2px;
 	height: 45px;
-	margin-top: 20px;
-	margin-bottom: 50px;
 	width: 100px;
 }
 

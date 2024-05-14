@@ -20,15 +20,7 @@
 </div>
 
 <!--end of block-->
-<div class="container-fluid">
-	<div class="row">
-		<div class="col-md-12">
-
-		</div>
-	</div>
-</div>
-
-	<div class="container-fluid" id="recipes-arangment">
+<div class="container-fluid" id="recipes-arangment">
 		<div class="row">
 			<div class="col-md-4" style="display: flex;">
 		<?php
@@ -76,17 +68,18 @@
 		</div>   
     </div> 
 </div> 
-	<!--end of visa Categories-->
-    <section>	
-    <div class="food">
-    	<h1>Food Menu</h1>
-    	<div class="food-search">
-    		
-    		<form action="<?php echo SITEURL;?>food-search.php" method="POST">
-    			<input id="search-text" type="search" name="search" placeholder="Search for food..."Required>
+<!--end of visa Categories-->
+
+<div class="container-fluid" id="food">
+    	<h2>Visa Types</h2>
+		<div class="row">
+			<div class="col-md-12" id="food-search">
+			<form action="<?php echo SITEURL;?>food-search.php" method="POST">
+    			<input style="height:40px" id="search-text" type="search" name="search" placeholder="Search Visa..."Required>
     			<input  type="submit" name="submit" value="Search" id="search-btn">
     		</form>
-        </div>
+			</div>
+		</div><br>
     	
     	<?php
          //getting food from database that are featured
@@ -144,5 +137,4 @@
 
          ?>
          </div>
-   </section>
  <?php include('./partiales-front/footer.php');  ?>
