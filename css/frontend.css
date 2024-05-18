@@ -699,38 +699,32 @@
 	align-items: center;
 }
 
-#images-arangment img {
+#recipes-arangment img {
 	width: 200px;
 	height:200px;
-	margin-left: 40px;
-	margin-top: 40px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	margin-bottom: 20px;
-	border-radius: 40px;
+	border-radius: 3px;
 }
 
-#images-arangment h3 {
+#recipes-arangment h3 {
 	font-family: Garamond, serif;
 	color: #043927;
 	text-decoration: none;
 	font-weight: bold;
 	text-align: center;
-	margin-left: 40px;
-
+	margin-top: 30px;
+	margin-bottom: 30px;
 }
 
-#images-arangment h3 a {
+#recipes-arangment h3 a {
 	color: #043927;
 	text-decoration: none;
 }
 
-#images-arangment h3 a:hover {
+#recipes-arangment h3 a:hover {
 	color: red;
 }
 
-#images-arangment strong span {
+#recipes-arangment strong span {
 	margin-top: 0;
 	font-size: 20px;
 	font-family: "Comic Sans MS", cursive, sans-serif;
@@ -1052,6 +1046,14 @@ form .reset:hover {
 	background-color: #043927;
 	width: 100%;
 	height: auto;
+	justify-content: center;
+	align-items: center;
+}
+
+#food1 {
+
+		background-color: #043927;
+
 }
 
 #food h2 {
@@ -1061,44 +1063,46 @@ form .reset:hover {
 }
 
 #food-menu-box {
-
-	border-radius: 15px;
-	width: 300px;
-	height: auto;
-	margin: 60px 20px;
-	padding: 10px 10px;
-	background-color: #f5f5dc;
+	background-color:white;
+	color:#043927;
+	justify-content:center;
+	align-items:center;
+	margin:20px
 }
 
-#food-menu-img img {
+#food-menu-box img {
 	width: 200px;
+	height: 200px;
+	margin-left: 30%;
+	border-radius: 2px;
 }
 
-#food-menu-desc {
-	color: #043927;
+#food-menu-box h4 {
+	width: 200px;
+	margin-left: 30%;
 }
 
-#food-menu-desc a {
-	text-decoration: none;
+#food-menu-box p {
+	color:lightgray;
+	font-weight: bold;
+}
+
+#food-menu-box a {
+	color: #043927 ;
+}
+
+
+#food-menu-box a:hover {
 	color: red;
-}
-
-#food-menu-desc a:hover {
-	color: #043927;
-}
-
-#food-search {
-	display: flex;
-	justify-content: right;
-	align-items: right;
+	text-decoration: none;
 }
 
 #search-text {
-	background-color: #f5f5dc;
+	background-color:#f5f5dc;
 	width: 300px;
-	border: none;
+	border:none;
 	outline: none;
-	color: #043927;
+	color: #043927 ;
 	font-size: 18px;
 	margin-bottom: 16px;
 }
@@ -1118,4 +1122,28 @@ form .reset:hover {
 	background-color: #f44336;
 	color: white;
 	cursor: pointer;
+}
+
+#visa-types{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#visa-types h2{
+	text-align: center;
+	font-family:'Times New Roman', Times, serif;
+}
+
+#visa-types hr{
+	color: red;
+	width:300px;
+	font-weight: bold;
+	
+}
+
+#visa-custom {
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }

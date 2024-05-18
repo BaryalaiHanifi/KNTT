@@ -20,9 +20,8 @@
 </div>
 
 <!--end of block-->
-<div class="container-fluid" id="recipes-arangment">
-		<div class="row">
-			<div class="col-md-4" style="display: flex;">
+<div class="container-fluid">
+		<div class="row" id="recipes-arangment">
 		<?php
 		//create sql query to display categories from db
 		$sql = "SELECT * FROM tbl_recipe ";
@@ -38,8 +37,7 @@
 				$title = $row['title'];
 				$image_name = $row['image_name'];
 				?>
-	           
-				<div id="images-arangment">
+	           <div class="col-md-4" style="display: flex; justify-content:center; align-items:center;">
 				<a style="text-decoration: none;" href="<?php echo SITEURL;?>category-food.php?category_id=<?php echo $id;?>">
 	                  	<?php 
 	                  	//check whether image is availabe or not
@@ -65,23 +63,35 @@
 		}
 
         ?>
-		</div>   
+		
     </div> 
 </div> 
 <!--end of visa Categories-->
-
-<div class="container-fluid" id="food">
-    	<h2>Visa Types</h2>
-		<div class="row">
-			<div class="col-md-12" id="food-search">
-			<form action="<?php echo SITEURL;?>food-search.php" method="POST">
-    			<input style="height:40px" id="search-text" type="search" name="search" placeholder="Search Visa..."Required>
+<div class="container-fluid" id="visa-types">
+	<div class="row">
+		<div class="col-md-12">
+		  <hr>
+		  <h2>Visa Types</h2>
+		  <hr>
+		</div>
+	</div>
+</div>
+<div class="container-fluid">
+	<div class="row"> 
+		<div class="col-md-12" style="display:flex;justify-content:flex-end;">
+		<form action="<?php echo SITEURL;?>food-search.php" method="POST">
+    			<input style="height:40px;" id="search-text" type="search" name="search" placeholder="Search Visa..."Required>
     			<input  type="submit" name="submit" value="Search" id="search-btn">
     		</form>
-			</div>
-		</div><br>
-    	
-    	<?php
+		</div>
+	</div>
+</div>
+
+<div class="container-fluid">
+	<div class="row" style="display: flex;
+	justify-content: center;
+	align-items: center;">
+		<?php
          //getting food from database that are featured
     	 //write sql code to retrieve data
     	 $sql2 = "SELECT * FROM tbl_food WHERE featured = 'Yes' LIMIT 3";
@@ -99,8 +109,8 @@
     	 		$description = $row2['description'];
     	 		$image_name = $row2['image_name'];
     	 		?>
-			    	<div class="food-menu-box test">
-			    		<div class="food-menu-img">
+			    
+			    <div class="col-md-3" id="food-menu-box">
 			    <?php
 
 			    			//check image is available or not
@@ -118,16 +128,11 @@
 			    		    ?>
 			    		    <h4><?php echo $title;  ?></h4>
 			    			
-			    			<p class="food-detail"><?php echo $description;  ?></p>
-			    			<br>
-			    			<a href="<?php echo SITEURL;?>recipe1.php?food_id=<?php echo $id;?>" class="form-control reset">See Recipe</a>
-			    	</div>
-			    			
-			    	</div>
-			        <br>
-			    	
+			    			<p id="food-detail" style="width:100; height:100px"><?php echo $description;  ?></p>
+			    			<a href="<?php echo SITEURL;?>recipe1.php?food_id=<?php echo $id;?>"  id="food-menu-desc">Full Information</a>
+			    </div>
 
-    	 		<?php
+    	<?php
     	 		
     	 	}
     	 }else{
@@ -136,5 +141,7 @@
     	 }
 
          ?>
-         </div>
+	</div>	
+</div>
+	<br><br>
  <?php include('./partiales-front/footer.php');  ?>
