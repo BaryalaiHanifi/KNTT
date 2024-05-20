@@ -1,5 +1,6 @@
 <?php include('./partiales-front/menu.php');  ?>
 <?php include('./config/constants.php'); ?>
+
 <?php 
  //check whether id is passed or not
  if (isset($_GET['category_id'])){
@@ -21,59 +22,71 @@
  }
 
 ?>
-<br><br><br><br><br>
-<section>
-    <div class="food">
-    	<h1>Foods on "<?php echo $category_title;?>"</h1>
-    	<?php
-    		//create query the get food based on selected category
-    	    $sql2 = "SELECT * FROM tbl_food WHERE recipe_id = $category_id";
-    	    //execute the query
-    	    $result2 = mysqli_query($conn,$sql2);
-    	    //count the row
-    	    $count2 = mysqli_num_rows($result2);
-    	    //check whether food on category is availabe or not
-    	    if ($count2>0) {
-    	    	while($row2=mysqli_fetch_assoc($result2)){
-    	    	$title = $row2['title'];
+
+<div class="container-fluid" id="visa-types">
+	<div class="row">
+		<div class="col-md-12">
+		  <hr>
+		  <h3 style="text-align: center;">Visas on "<?php echo $category_title;?>"</h3>
+		  <hr>
+		</div>
+	</div>
+</div>
+
+<div class="container-fluid">
+	<div class="row" style="display: flex;
+	justify-content: center;
+	align-items: center;">
+		<?php
+         //getting food from database that are featured
+    	 //write sql code to retrieve data
+		 $sql2 = "SELECT * FROM tbl_food WHERE recipe_id = $category_id";
+    	 //execute the query
+    	 $result2 = mysqli_query($conn,$sql2);
+    	 //count row
+    	 $count2 = mysqli_num_rows($result2);
+    	 //check food is available or not
+    	 if($count2>0){
+    	 	//food availabe
+    	 	while ($row2 = mysqli_fetch_assoc($result2)) {
+    	 		//get all values
+    	 		$id = $row2['id'];
+    	 		$title = $row2['title'];
     	 		$description = $row2['description'];
     	 		$image_name = $row2['image_name'];
     	 		?>
-    	 		<div class="food-menu-box">
-			    		<div class="food-menu-img">
-			    			<?php
+			    
+			    <div class="col-md-3" id="food-menu-box">
+			    <?php
+
 			    			//check image is available or not
 			    			if ($image_name=="") {
 			    				//image is not availabe
 			    				echo "<div class='error'>Image is not availabe.</div>";
-			    			}else
-			    			{
+			    			}else{
 			    				//image is availabe
 			    				?>
-
 			    				<img src="<?php echo SITEURL;?>images/food/<?php echo $image_name;?>">
+
 			    				<?php
-			    			}
-			    			?>
-			    		</div>
-			    <div class="food-menu-desc">
-			    			<h4> <?php echo $title;  ?></h4>
-			            	<p class="food-detail"><?php echo $description;  ?></p>
-			    			<br>
-			    			<a href="#">See Recipe</a>
-			    </div>
+
+			    			} 
+			    		    ?>
+			    		    <h4><?php echo $title;  ?></h4>
+			    			
+			    			<p id="food-detail" style="width:100; height:100px"><?php echo $description;  ?></p>
+			    			<a href="<?php echo SITEURL;?>recipe1.php?food_id=<?php echo $id;?>"  id="food-menu-desc">Full Information</a>
 			    </div>
 
-    	 		<?php
-
+    	<?php
+    	 		
     	 	}
-    	    }else{
+    	 }else{
+    	 	//food is not available
+    	 	echo "<div class='error'>Visa is not availabe.</div>";
+    	 }
 
-    	    	echo "<div class='error' style='color:white;'>Food is not availabe.</div>";
-
-    	    }
-        ?>
-        <br><br>
-    </div>
-</section>
+         ?>
+	</div>	
+</div>
 <?php include('./partiales-front/footer.php');  ?>

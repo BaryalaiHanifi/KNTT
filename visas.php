@@ -76,6 +76,8 @@
 		</div>
 	</div>
 </div>
+
+
 <div class="container-fluid">
 	<div class="row"> 
 		<div class="col-md-12" style="display:flex;justify-content:flex-end;">
@@ -143,5 +145,4 @@
          ?>
 	</div>	
 </div>
-	<br><br>
  <?php include('./partiales-front/footer.php');  ?>
