@@ -35,7 +35,6 @@
 	border: 0.3px solid yellow;
 }
 
-
 #h1-sty img {
 	width: auto;
 	height: auto;
@@ -108,7 +107,7 @@
 }
 
 #showcase a:hover {
-	color: blue;
+	color: coral;
 }
 
 #showcase h1 {
@@ -134,20 +133,11 @@
 	height: auto;
 }
 
-#showcase img:hover {
-	transition-duration: 1s;
-	transform: rotate(-1deg);
-}
 
 #img1 img {
 	margin-top: 0px;
 	width: 100%;
 	height: auto;
-}
-
-#img1 img:hover {
-	transition-duration: 1s;
-	transform: rotate(-1deg);
 }
 
 #img3 img {
@@ -926,7 +916,7 @@
 	border-radius: 40px;
 }
 
-#background-image-container {
+#background-image-container1 {
     background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
 	url('../images/contact-back.webp');
     background-size: cover;
@@ -935,6 +925,20 @@
 	margin-top: 100px;
 	width: 100%;
     height: auto; /* You can adjust the height as needed */
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#background-image-container1 {
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+	url('../images/menu-back.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+	margin-top: 100px;
+	width: 100%;
+    height:auto; /* You can adjust the height as needed */
 	display:flex;
 	justify-content: center;
 	align-items: center;
