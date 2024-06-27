@@ -23,7 +23,9 @@
 			<br><br>
 			<a href="https://www.facebook.com/profile.php?id=61553712674280"><img src="images/facebook.png"></a>
     		<a href="https://www.instagram.com/kabulnights4?igsh=MWoyd2xmZGx5cjFvZQ=="><img src="images/insta.png"></a>
-    		<a href="info@kabulnight.com"><img src="images/mail.png"></a>
+    		<b>Email: info@kabulnight.com</b><br><br>
+			<b>WhatsApp: +93790903736, +93795797707</b><br><br>
+			<img src="images/address.png"><b>11th Street Wazir Akbar Khan, Kabul</b>
 		</p>
 		</div>
 		<div class="col-md-12" id="copyrigt" style="display:grid; place-items:center;margin-bottom:50px;">

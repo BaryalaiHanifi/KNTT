@@ -17,9 +17,9 @@
 				<li><a href="index.php">Home</a></li>
 				<li><a href="manage-admin.php">Admin</a></li>
 				<li><a href="manage-categories.php">Category</a></li>
-				<li><a href="manage-food.php">Food</a></li>
-				<li><a href="manage-recipe.php">Recipes</a></li>
-				<li><a href="manage-step.php">Add-Step</a></li>
+				<li><a href="manage-food.php">Visa</a></li>
+				<li><a href="manage-recipe.php">Visa Description</a></li>
+				<li><a href="manage-step.php">Documents</a></li>
 				<li><a href="contact.php">Contact</a></li>
 				<li><a href="logout.php">Logout</a></li>
 		 	</ul>

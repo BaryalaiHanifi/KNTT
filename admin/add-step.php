@@ -3,7 +3,7 @@
 ?>
 <div class="backend-main">
 	 <div class="wrapper">
-	    <h1>Add Category</h1>
+	    <h1>Documents Needed</h1>
 	    <!--category form start-->
 	    <?php  
          if (isset($_SESSION['add'])) {

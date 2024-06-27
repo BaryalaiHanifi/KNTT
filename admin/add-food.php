@@ -3,7 +3,7 @@
 ?>
 <div class="backend-main">
 	 <div class="wrapper">
-	  <h1>Add Food</h1>
+	  <h1>Add Visa</h1>
 	    <?php
 	    	if (isset($_SESSION['upload'])) {
          	 		echo $_SESSION['upload'];

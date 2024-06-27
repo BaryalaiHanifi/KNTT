@@ -916,9 +916,9 @@
 	border-radius: 40px;
 }
 
-#background-image-container1 {
+#background-image-container {
     background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
-	url('../images/contact-back.webp');
+	url('../images/contact-back.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;

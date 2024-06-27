@@ -3,7 +3,7 @@
 ?>
 <div class="backend-main">
 	 <div class="wrapper">
-	    <h1>Add Recipe</h1>
+	    <h1>Visa Description</h1>
 	    <?php  
          if (isset($_SESSION['add'])) {
          	echo $_SESSION['add'];

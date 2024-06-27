@@ -3,7 +3,7 @@
 <br>
 <div class="container-fluid" id="background-image-container">
   <div class="row">
-    <div class="col-md-12" id="contact-h1">
+    <div class="col-md-12" id="contact-h1" style="margin-top:50px;margin-bottom:50px;">
       <h1>Get in Touch</h1>
     </div>
   </div>

@@ -4,10 +4,7 @@
 <div class="row">
 	<div class="col-md-6" style="margin-top:100px;" id="vertical-line">
 	<span>01</span>
-	<p>Discoverd effortless recipes was born to define global
-	best recipes for it's paticipants from a simple desire to
-	use what is on our plates to make positive change for our
-	environment,health & communites.</p>
+	<p>Kabul Nights Travel & Tours is detemined to solve its clients issues in efficient ant timely manner.</p>
 	</div>
 	<div class="col-md-6" style="margin-top:86px;" id="mission-01">
 	<hr>
@@ -31,14 +28,14 @@
 <div class="row" id="div1-row2">
 	<div class="col-md-6">
 		<p>
-		We have tried to explore best recipes all around the globe
-			and we go on this process as well, recipes that are famous for there taste, ingridents, design and harmless for your health.<br><br>
-			Game to try some of out recipes? Discover the ease & versatility of cooking with effortless recipes game.also an important case.<br><br>
-		   	Our mission is to help every chef discover the taste,health & sustainability benefits of ethically delicious foods.<br>
+At our core, we believe that every problem presents an opportunity for growth and innovation. By choosing to see problems as solutions, 
+we embrace challenges with a mindset geared towards creativity and resilience. This perspective transforms obstacles into catalysts for improvement, driving us to develop more effective, sustainable, and innovative solutions. Through this approach,
+ we not only overcome difficulties but also push the boundaries of what is possible, turning
+ setbacks into stepping stones for success. Our commitment to this philosophy ensures that we continually evolve, adapt, and excel in the face of adversity.<br>
 		</p>
     </div>
 	<div class="col-md-6" id="img-center">
-	<img src="images/mission-3.webp" class="img-fluid">
+	<img src="images/mission-3.jpeg" class="img-fluid">
 	</div>
 	</div>
 </div>
@@ -46,20 +43,17 @@
 <div class="container-fluid">
 		<div class="row">
 			<div class="col-md-6" id="showcase">
-				<img src="images/section-1.jpg" class="img-fluid">
-				<h1><small>02</small>The best travel Options for you!</h1>
-				<p>We have gathered best suppliers together for (travel packages ,visa & ticket) to top countries including Russia,Uman,Brazil,Iran,Pakistan,Dubai, etc.<br><br>
-			   	Learn more about our mission in below link.<br><br>
-           		<a href="mission.html">Discover Our mission</a>		    
+				<img src="images/mission-2.jpg" class="img-fluid">
+				<h1>Committed to Compliance and Legal Standards</h1>
+				<p style="text-align: justify;">Our work is firmly rooted in a commitment to legality and adherence to all applicable rules and regulations. We ensure that every project we undertake meets the highest standards of compliance, respecting both the letter and the spirit of the law. By meticulously following established guidelines and maintaining transparent practices, we build trust with our clients and stakeholders. This unwavering dedication to legal and ethical standards ensures that our operations are not only effective but also responsible and sustainable.	    
 		   		</p>		
 			</div>
 			<div class="col-md-6" id="showcase">
-			<h1><small>01</small>The best travel packages for you!</h1>
-			<p>We have gathered best suppliers together for (travel packages ,visa & ticket) to top countries including Russia,Uman,Brazil,Iran,Pakistan,Dubai, etc.<br><br>
-		    Learn more about our mission in below link.<br><br>
-            <a href="mission.html">Discover Our mission</a>		    
+			<h1>Foucus On Clients</h1>
+			<p style="text-align: justify;">
+Our commitment to being client-oriented is at the heart of everything we do. We prioritize understanding and addressing the unique needs and goals of each client, ensuring personalized solutions and exceptional service. By actively listening and maintaining open communication, we build strong, collaborative relationships that foster trust and satisfaction. Our success is measured by the success of our clients, and we continually strive to exceed their expectations, delivering results that drive their growth and success.<br>	    
 		    </p>		
-			<img src="images/section-1-2.jpg" class="img-fluid">
+			<img src="images/mission-1.jpg" class="img-fluid">
 			</div>
 		</div>	
 	    <div >
@@ -67,7 +61,7 @@
 <div class="container-fluid" id="img3">
 	<div class="row">
 		<div class="col-md-12"> 
-			<img src="images/section-1-3.jpg" class="img-fluid">
+			<img src="images/mission-1-3.jpg" class="img-fluid">
 		</div>
 	</div>
 </div>

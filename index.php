@@ -5,7 +5,7 @@
 <div class="container-fluid"  id="background-image-container1">
 		<div class="row">
 			<div class="col-md-12" id="h1-sty" style="text-align: center;
-	color:white;margin-bottom:200px;margin-top:200px;font-size:130px;">
+	            color:white;margin-bottom:200px;margin-top:200px;font-size:130px;">
 				<h1>We Plan, You Enjoy!</h1>
 				<img src="images/slogan.png" class="img-fluid">
 			</div>

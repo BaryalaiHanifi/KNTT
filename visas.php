@@ -139,7 +139,7 @@
     	 	}
     	 }else{
     	 	//food is not available
-    	 	echo "<div class='error'>Food is not availabe.</div>";
+    	 	echo "<div class='error'>Visa is not availabe.</div>";
     	 }
 
          ?>

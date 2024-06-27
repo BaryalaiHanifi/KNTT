@@ -38,7 +38,7 @@
         <hr>
         <br>
         <span>02</span>
-        <strong><a href="<?php echo SITEURL;?>recipes.php">Recipes</a></strong>
+        <strong><a href="<?php echo SITEURL;?>visas.php">Visas</a></strong>
         <hr>
         <br> 
         <span>03</span>
