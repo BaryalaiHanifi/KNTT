@@ -130,7 +130,7 @@
 			    		    ?>
 			    		    <h4><?php echo $title;  ?></h4>
 			    			
-			    			<p id="food-detail" style="width:100; height:100px"><?php echo $description;  ?></p>
+			    			<p id="food-detail" style="width:100; height:100px;text-align:justify"><?php echo $description;  ?></p>
 			    			<a href="<?php echo SITEURL;?>recipe1.php?food_id=<?php echo $id;?>"  id="food-menu-desc">Full Information</a>
 			    </div>
 

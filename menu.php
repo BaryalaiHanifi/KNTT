@@ -27,9 +27,11 @@
     		sugestion about our services and 
     		share your best travel experinces!
             <br><br>
-            <a href="https://www.facebook.com/profile.php?id=61553712674280"><img src="images/facebook.png"></a>
-            <a href="https://www.instagram.com/kabulnights4?igsh=MWoyd2xmZGx5cjFvZQ=="><img src="images/insta.png"><br></a>
-            <a href="#">info@kabulnight.com</a> 
+            <a href="https://www.facebook.com/profile.php?id=61553712674280"><img src="images/facebook.png" style="border: none;"></a>
+            <a href="https://www.instagram.com/kabulnights4?igsh=MWoyd2xmZGx5cjFvZQ=="><img src="images/insta.png" style="border: none;"><br></a>
+            <a href="#">info@kabulnight.com</a><br><br>
+            <b>WhatsApp: +93790903736, +93795797707</b><br><br>
+		       	<img src="images/address.png" style="border: none;"><b>11th Street Wazir Akbar Khan, Kabul</b> 
         </span>
         </div>
         <div id="xn">

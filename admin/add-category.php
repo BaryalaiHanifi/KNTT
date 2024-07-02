@@ -35,7 +35,6 @@
         			<td>
         		    Yes<input type="radio" name="featured" value="Yes">
         			No<input type="radio" name="featured" value="No">
-
         			</td>
         		</tr>
         		<tr>
@@ -68,19 +67,19 @@
             if(isset($_FILES['image']['name'])){
                 //upload the image
                 //for uploading image name,source path and destination path
+
                 $image_name = $_FILES['image']['name'];
                 //upload image only if image is available
+
                 if ($image_name != "") {
-                
-                
                 //auto rename image
                 //get the extension of our image(jpg,png,gif,etc)e.g.food1.jpg
+
                 $extension = end(explode('.',$image_name));
                 //rename the image
-                $image_name="Food_Category_".rand(000,999).'.'.$extension;
+                $image_name="Visa_Category_".rand(000,999).'.'.$extension;
 
                 $source_path = $_FILES['image']['tmp_name'];
-
                 $destination_path ="../images/category/".$image_name;
                 //finally upload the image
                 $upload = move_uploaded_file($source_path,$destination_path);

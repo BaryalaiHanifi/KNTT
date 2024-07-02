@@ -31,7 +31,7 @@
 ?>
 <div class="backend-main">
 	 <div class="wrapper">
-	 	<h1>Update Food</h1>
+	 	<h1>Update Visa</h1>
 	 	  <!--update form start-->
 	    <form method="post" action="" enctype="multipart/form-data">
         	<table class="tbl-30">

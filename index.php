@@ -1,6 +1,5 @@
 <?php include('./partiales-front/menu.php');?>
-<?php include('./config/constants.php'); ?>
-<br>
+<?php include('./config/constants.php'); ?><br>
 <header style="background-color: white;">
 <div class="container-fluid"  id="background-image-container1">
 		<div class="row">
@@ -28,14 +27,14 @@
 				<h1>The Best Travel Options For You!</h1>
 				<p style="text-align: justify;">Explore new adventures with us! Whether you want to visit exciting cities,
 					 relax on sunny beaches, or dive into local cultures, we've got the perfect trip for you. Let's make your travel dreams come true. Start planning today!<br><br>
-           		<a href="mission.html">Discover Our mission</a>		    
+           		<a href="visas.php">Discover Our Visa</a>		    
 		   		</p>		
 			</div>
 			<div class="col-md-6" id="showcase">
 			<h1>The Best Travel Packages For You!</h1>
 			<p style="text-align: justify;">We've brought together top-notch suppliers to create fantastic travel packages, complete with visas and tickets, for some of the most sought-after destinations around the globe.<br><br>
 		    Learn more about our mission in below link.<br><br>
-            <a href="mission.php">Discover Our mission</a>		    
+            <a href="visas.php">Discover Our Visa</a>		    
 		    </p>		
 			<img src="images/section-1-2.jpg" class="img-fluid" style="border-radius: 2px;">
 			</div>

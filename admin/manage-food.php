@@ -4,7 +4,7 @@
 	<!--main section start-->
 	<div class="backend-main">
 		<div class="wrapper ">
-		     <h1>Manage Food</h1>
+		     <h1>Manage Visa</h1>
 		      <br><br>
 		      <?php  
         	  if (isset($_SESSION['add'])) {
@@ -29,7 +29,7 @@
               }
               ?>
 		     <!-- add admin -->
-		     <a href="<?php echo SITEURL;?>admin/add-food.php" class="btn-primary">Add Food</a>
+		     <a href="<?php echo SITEURL;?>admin/add-food.php" class="btn-primary">Add Visa</a>
 		     <br><br><br>
 		     <table class="tbl-full">
 		     	<tr>

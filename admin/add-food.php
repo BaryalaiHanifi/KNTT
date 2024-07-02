@@ -15,13 +15,13 @@
         		<tr>
         			<td>Title:</td>
         			<td>
-        				<input class="form-control" type="text" name="title" placeholder="Food title...">
+        				<input class="form-control" type="text" name="title" placeholder="Visa title...">
         			</td>
         		</tr>
         		<tr>
         			<td>Description:</td>
         			<td>
-        				<textarea class="form-control" cols="30" rows="5" type="text" name="description" placeholder="Food description..."></textarea>
+        				<textarea class="form-control" cols="30" rows="5" type="text" name="description" placeholder="Visa description..."></textarea>
         			</td>
         		</tr>
 
@@ -63,9 +63,7 @@
 
         				}	 
         				?>
-        			
         				</select>
-
         			</td>
         		</tr>
         		<tr>
@@ -73,16 +71,13 @@
         			<td>
         		    Yes<input type="radio" name="featured" value="Yes">
         			No<input type="radio" name="featured" value="No">
-
         			</td>
         		</tr>
         		<tr>
         			<td>
-        				<input type="submit" name="submit" class="form-control submit btn-secondary" value="Add Food">
+        				<input type="submit" name="submit" class="form-control submit btn-secondary" value="Add Visa">
         			</td>
         		</tr>
-
-        		
         	</table>
         </form>
         <!--food form ends-->
@@ -105,20 +100,24 @@
 			$featured = "No";
 		}
 		//2.upload the iamge if selected
-		 if(isset($_FILES['image']['name']))
-		 {	//get the details of selected image
+		if(isset($_FILES['image']['name'])){
+
+		 	//get the details of selected image
+
 		 	$image_name = $_FILES['image']['name'];
 		 	//second condition to check whether image is selected or not
-		 	if ($image_name!="") {
+
+		 	if ($image_name != "") {
 		 		//image is selected
 		 		//A.rename the image
-		 		//get the extension of our image(jpg,png,gif,etc)e.g.food1.jpg
+		 		//get the extension of our image(jpg,png,gif,etc)e.g.Visa1.jpg
                 $ext = end(explode('.',$image_name));
 		 		
 		 		 //rename the image
                 $image_name="Food_Name_".rand(0000,9999).'.'.$ext;
 		 		//B.upload the image
 		 		//get the source and destination path
+
 		 		$src = $_FILES['image']['tmp_name'];
 		 		$dest ="../images/food/".$image_name;
 		 		//finally upload the image
@@ -135,7 +134,7 @@
                 }
 		 		
 		 	}
-		 }
+				 }
 		 else
 		 {
 		 	$image_name = "";//set default image name as blank
@@ -153,7 +152,7 @@
           //check query execution
           if ($result2==TRUE) {
           //query executed successfully
-        		$_SESSION['add'] = "<div class='success'>Food added successfully...</div>";
+        		$_SESSION['add'] = "<div class='success'>Visa added successfully...</div>";
         		//redirect to manage category
         		header('location:'.SITEURL.'admin/manage-food.php');
           }

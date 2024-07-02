@@ -3,7 +3,7 @@
 ?>
 <div class="backend-main">
 	 <div class="wrapper">
-	    <h1>Manage Recipe</h1>
+	    <h1>Manage Documents</h1>
 	   	<br><br>
 	   	<?php
 	   	if (isset($_SESSION['add'])) {
